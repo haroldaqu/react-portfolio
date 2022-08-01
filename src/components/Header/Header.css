@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    /* padding: 0 2rem 0 2rem; */
+}
+
+header h1 {
+    border-bottom: solid #CFB53B 2px;
+}
+

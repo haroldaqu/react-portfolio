@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Sacramento&display=swap');
+
+.home {
+    display: flex;
+    position: relative;
+}
+
+.home-content {
+    width: 60%;
+    position: absolute;
+    z-index: 1;
+    background: rgba(250, 245, 239, 255);
+}
+
+.title {
+    display: block;
+    height: 35%;
+    font-size: 6rem;
+    font-weight: bolder;
+}
+
+.name {
+    display: block;
+    text-align: right;
+    font-size: 3rem;
+    font-family: 'Sacramento', cursive;
+    color: #CFB53B;
+    font-weight: lighter;
+}
+
+.interest {
+    /* outline: solid red; */
+    display: block;
+    text-align: left;
+    padding: 7.5rem 7.5rem 7.5rem 0;
+    font-size: 1rem;
+}
+
+.skills {
+    position: absolute;
+    right: 50px;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+    height: 75%;
+    width: 100%;
+    border: solid #34332d 2px;
+    /* border: solid #CFB53B 2px; */
+    border-radius: 100%;
+    z-index: 0;
+}
+
+.skills h1 {
+    font-size: 3.5rem;
+    width: 40%;
+    border-bottom: solid #CFB53B 2px;
+}
+
+.skills p {
+    width: 40%;
+    font-size: 1.5rem;
+}
+
+.icon {
+    font-size: 1.5rem;
+}
