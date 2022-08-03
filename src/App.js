@@ -7,16 +7,22 @@ import Projects from './components/Projects/Projects';
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <div className="App">
-        <Header />
-        <Routes>
-          <Route exact path='/' element={<Home />} />
-          <Route path='/projects' element={<Projects />} />
-          <Route path='/contact' element={<Contact />} />
-        </Routes>
-      </div>
-    </BrowserRouter>
+    // <BrowserRouter>
+    // <div className="App">
+    //     <Header />
+    //     <Routes>
+    //       <Route exact path='/' element={<Home />} />
+    //       <Route path='/projects' element={<Projects />} />
+    //       <Route path='/contact' element={<Contact />} />
+    //     </Routes>
+    //   </div>
+    // </BrowserRouter> 
+    <div className="App">
+      <Header />
+      <Home />
+      <Projects />
+      <Contact />
+    </div>
   );
 }
 

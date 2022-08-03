@@ -1,0 +1,8 @@
+.projects {
+    outline: solid red;
+    display: flex;
+    flex-direction: column;
+    /* gap: 3.5rem; */
+    height: 90vh;
+    /* margin-top: 20vh; */
+}

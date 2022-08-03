@@ -1,7 +1,12 @@
+import './Projects.css'
+import IndividualProjects from "../IndividualProjects./IndividualProjects";
+
 const Projects = () => {
     return ( 
-        <main className="projects">
-            <h1>Projects</h1>
+        <main className="projects" id="projects" >
+            <IndividualProjects />
+            <IndividualProjects />
+            <IndividualProjects />
         </main>
      );
 }

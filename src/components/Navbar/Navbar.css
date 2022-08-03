@@ -3,10 +3,12 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    padding: 2rem;
+    width: 50%;
 }
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: #34332d;
     font-size: 1.5rem;
 }
