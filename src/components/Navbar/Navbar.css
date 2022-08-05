@@ -1,14 +1,19 @@
-nav {
+.navbar {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     gap: 2rem;
-    padding: 2rem;
     width: 50%;
 }
 
-nav a {
+.navbar a {
     text-decoration: none;
-    color: #34332d;
+    color: #ffffff;
     font-size: 1.5rem;
+}
+
+@media (max-width: 767px) {
+    .navbar {
+        display: none;
+    }
 }

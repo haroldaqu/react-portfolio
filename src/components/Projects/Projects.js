@@ -5,8 +5,6 @@ const Projects = () => {
     return ( 
         <main className="projects" id="projects" >
             <IndividualProjects />
-            <IndividualProjects />
-            <IndividualProjects />
         </main>
      );
 }

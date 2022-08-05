@@ -1,18 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Sacramento&display=swap');
+
 header {
-    /* outline: solid red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 10vh;
-    width: 96%;
+    width: 100%;
     position: fixed;
-    /* top: 0; */
-    background: white;
-    /* position: absolute; */
-    /* padding: 0 2rem 0 2rem; */
+    top: 0;
+    background:transparent;
+    padding: 2rem;
+    max-width: 1920px;
+    z-index: 1;
+    /* background: rgba(255, 255, 255, 0.03);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px); */
 }
 
-/* header h1 {
-    border-bottom: solid #CFB53B 2px;
-} */
+.bgColor {
+        background: rgba(255, 255, 255, 0.03);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5.3px);
+            -webkit-backdrop-filter: blur(5.3px);
+}
+
+header h1 {
+    width: 50%;
+}
+
+@media (max-width: 767px) {
+    header {
+        position: fixed;
+    }
+}
 
