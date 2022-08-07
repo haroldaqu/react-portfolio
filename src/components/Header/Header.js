@@ -2,6 +2,8 @@ import './Header.css'
 import Navbar from "../Navbar/Navbar";
 import MobileNavBar from '../MobileNavbar/MobileNavbar';
 import { useState } from 'react';
+import Links from '../Links/Links';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 
@@ -19,7 +21,10 @@ const Header = () => {
 
     return ( 
         <header className={bgColor ? "bgColor" : null } >
-            <h1>HA</h1>
+            <div className="left-container">
+                <h1> HA </h1>
+                <Links />
+            </div>
             <Navbar />
             <MobileNavBar />
         </header>

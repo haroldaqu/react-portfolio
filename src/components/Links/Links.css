@@ -1,0 +1,22 @@
+.links {
+    /* outline: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    /* width: 33.33%; */
+    /* position: fixed; */
+    color: white;
+
+}
+
+.links a {
+    padding: 0.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 1.15rem;
+    color: white;
+    text-decoration: none;
+}

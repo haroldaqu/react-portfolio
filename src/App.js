@@ -4,7 +4,7 @@ import Contact from './components/Contact/Contact';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import IndividualProjects from './components/IndividualProjects./IndividualProjects';
-import Projects from './components/Projects/Projects';
+import Links from './components/Links/Links';
 
 const App = () => {
   return (

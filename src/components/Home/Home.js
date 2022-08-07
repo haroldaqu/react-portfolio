@@ -15,13 +15,13 @@ const Home = () => {
                 <span className='interest' > I enjoy hiking, coffee, and basketball!</span>
             </div>
             <div className="home-skills">
+                <h1>  Skills </h1>
                 <div className="skills">
                     <p>  <FaHtml5 className='icon' /> HTML</p>
                     <p> <FaCss3Alt className='icon' /> CSS</p>
                     <p ><FaJs className='icon' /> JavaScript</p>
                     <p > <FaReact className='icon' /> React</p>
                 </div>
-                <h1>  Skills </h1>
             </div>
         </main>
      );
