@@ -26,7 +26,7 @@ const Links = () => {
     return ( 
         <div className="links">
             <a
-                href="https://drive.google.com/file/d/1dZ_7NMbKstRjIguFZhIg7142hl5sXQVU/view?usp=sharing"
+                href="https://drive.google.com/file/d/1zfh-nWmc_WmzbzZDm4LIbjYPklbZ6Pav/view?usp=sharing"
                 target="_blank"
                 onMouseEnter={() => setResIcon(true)}
                 onMouseLeave={() => setResIcon(false)}

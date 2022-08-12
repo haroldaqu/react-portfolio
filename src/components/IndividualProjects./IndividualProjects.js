@@ -10,35 +10,29 @@ const IndividualProjects = () => {
             src: require('./bucketlist-ss.png'),
             tech_stack: ['CSS', 'React', 'Google Maps Api', 'Firebase'],
             title: 'Food Bucketlist (Full Stack) ',
-            description: 'A web app for users to create a bucketlist of food destinations they would like to go to in the future'
+            description: 'A platform where users create a bucket list of food destinations to visit in the future',
+            live: 'https://foodbucketlist.netlify.app/',
+            code: 'https://github.com/haroldaqu/food-travel-bucketlist'
         },
         {
             id: 2,
             src: require('./nba-player-search-ss.png'),
             title: 'NBA Player Search', 
             tech_stack: [ 'HTML', 'CSS', 'JavaScript'],
-            description: 'An application where a user can search nba players by their name or team and be able to view their seasonal stats.',
-            code: 'https://searchyourplayer.netlify.app',
-            live: 'https://github.com/haroldaqu/search-nba-players'
+            description: 'An application where users can search nba players by their name or team to view their seasonal stats.',
+            live: 'https://github.com/haroldaqu/search-nba-players',
+            code: 'https://searchyourplayer.netlify.app'
         },
         {
             id: 3,
             src: require('./phils-cuisine-ss.png'),
             tech_stack: [ 'HTML', 'CSS', 'JavaScript', 'Webpack'],
-            title: 'Philippino Restaurant',
-            description: 'A single page restaurant website consturcted with javascript and dom manipulation through one div in HTML.',
+            title: 'Filipino Restaurant',
+            description: 'A single page website consturcted with JavaScript, Webpack and DOM manipulation through one div in HTML.',
+            live: 'https://github.com/haroldaqu/restaurant-project',
             code: 'https://philscuisine.netlify.app/',
-            live: 'https://github.com/haroldaqu/restaurant-project'
         },
-        {
-            id: 4,
-            src: require('./phils-cuisine-ss.png'),
-            tech_stack: [ 'HTML', 'CSS', 'JavaScript', 'Webpack'],
-            title: 'Philippino Restaurant',
-            description: 'A single page restaurant website consturcted with javascript and dom manipulation through one div in HTML.',
-            code: 'https://philscuisine.netlify.app/',
-            live: 'https://github.com/haroldaqu/restaurant-project'
-        }
+
     ]
 
     const gitHubIcon = <FiGithub />

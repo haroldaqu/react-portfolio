@@ -17,9 +17,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-        animation: fadeInAnimation ease 4s;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
+    animation: fadeInAnimation ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 
 }
 
