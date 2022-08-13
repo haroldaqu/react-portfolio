@@ -13,8 +13,8 @@ const Links = () => {
     useEffect(() => {
         setTimeout(() => {
             setResIcon(false)
-            setGitIcon(false)
-            setLiIcon(false)
+            // setGitIcon(false)
+            // setLiIcon(false)
         }, '7500')
     },[])
 
@@ -34,15 +34,15 @@ const Links = () => {
             <a
                 href="https://github.com/haroldaqu"
                 target="_blank"
-                onMouseEnter={() => setGitIcon(true)}
-                onMouseLeave={() => setGitIcon(false)}
-            > { gitHubIcon } {gitIcon ? 'GitHub' : ''} </a>
+                // onMouseEnter={() => setGitIcon(true)}
+                // onMouseLeave={() => setGitIcon(false)}
+            > { gitHubIcon }  </a>
             <a
                 href="https://linkedin.com/in/harold-aquino"
                 target="_blank"
-                onMouseEnter={() => setLiIcon(true)}
-                onMouseLeave={() => setLiIcon(false)}
-            > { linkedInIcon } {liIcon ? 'LinkedIn' : ''} </a>
+                // onMouseEnter={() => setLiIcon(true)}
+                // onMouseLeave={() => setLiIcon(false)}
+            > { linkedInIcon }  </a>
         </div>
      );
 }
