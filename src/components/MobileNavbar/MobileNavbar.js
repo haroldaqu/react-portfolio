@@ -17,7 +17,6 @@ const MobileNavBar = () => {
                 <li ><a href="#home"  onClick={() => setHamMenuToggled(false)}>Home</a></li>
                 <li><a href="#projects" onClick={() => setHamMenuToggled(false)} >Projects</a></li>
                 <li><a href="#contacts" onClick={() => setHamMenuToggled(false)} >Contact</a></li>
-                <li><a  onClick={() => setHamMenuToggled(false)} > { newWindowIcon } Resume</a></li>
             </ul>}
         </nav>
      );

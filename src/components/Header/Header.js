@@ -22,7 +22,7 @@ const Header = () => {
     return ( 
         <header className={bgColor ? "bgColor" : null } >
             <div className="left-container">
-                <h1> HA </h1>
+                <a href="#home"> <h1>HA</h1> </a>
                 <Links />
             </div>
             <Navbar />

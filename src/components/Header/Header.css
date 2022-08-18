@@ -29,6 +29,11 @@ header {
     gap: 2rem;
 }
 
+.left-container a {
+    text-decoration: none;
+    color: white;
+}
+
 header h1 {
     /* width: 25%; */
 }

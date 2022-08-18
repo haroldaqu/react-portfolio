@@ -20,8 +20,8 @@ const IndividualProjects = () => {
             title: 'NBA Player Search', 
             tech_stack: [ 'HTML', 'CSS', 'JavaScript'],
             description: 'An application where users can search nba players by their name or team to view their seasonal stats.',
-            live: 'https://github.com/haroldaqu/search-nba-players',
-            code: 'https://searchyourplayer.netlify.app'
+            live: 'https://searchyourplayer.netlify.app',
+            code: 'https://github.com/haroldaqu/search-nba-players'
         },
         {
             id: 3,
@@ -29,8 +29,8 @@ const IndividualProjects = () => {
             tech_stack: [ 'HTML', 'CSS', 'JavaScript', 'Webpack'],
             title: 'Filipino Restaurant',
             description: 'A single page website consturcted with JavaScript, Webpack and DOM manipulation through one div in HTML.',
-            live: 'https://github.com/haroldaqu/restaurant-project',
-            code: 'https://philscuisine.netlify.app/',
+            live: 'https://philscuisine.netlify.app/',
+            code: 'https://github.com/haroldaqu/restaurant-project',
         },
 
     ]

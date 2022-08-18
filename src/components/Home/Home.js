@@ -10,7 +10,7 @@ const Home = () => {
         <main className="home" id="home" >
             <div className="home-content">
                 <span className='name' >Harold Aquino</span>
-                <span className="title">Web Developer</span>
+                <span className="title">Front End Developer</span>
                 {/* <span className='name' >Harold Aquino</span> */}
                 <span className='interest' > I enjoy hiking, coffee, and basketball!</span>
             </div>
