@@ -15,7 +15,7 @@ const Links = () => {
             setResIcon(false)
             // setGitIcon(false)
             // setLiIcon(false)
-        }, '7500')
+        }, '5000')
     },[])
 
     const resumeIcon = <RiFileUserLine />
